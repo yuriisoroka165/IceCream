@@ -1,6 +1,6 @@
 <header class="header">
     <div class="header__container container">
-        <a class="header__logo" href="./">
+        <a class="header__link-logo" href="./">
             <picture class="header__logo-image">
                 <source srcset="./images/mobile/logo.png 1x, ./images/mobile/logo@2x.png 2x" media="(min-width: 1200px)" type="image/png">
                 <source srcset="./images/mobile/logo.png 1x, ./images/mobile/logo@2x.png 2x" media="(min-width: 768px)" type="image/png">
@@ -12,22 +12,22 @@
             <ul class="header__list">
                 <li class="header__item">
                     <a class="header__link" href="">
-
+                        Home
                     </a>
                 </li>
                 <li class="header__item">
                     <a class="header__link" href="">
-
+                        How it’s made?
                     </a>
                 </li>
                 <li class="header__item">
                     <a class="header__link" href="">
-
+                        Our products
                     </a>
                 </li>
                 <li class="header__item">
                     <a class="header__link" href="">
-
+                        Contact
                     </a>
                 </li>
             </ul>
@@ -37,12 +37,31 @@
                 <use href="./images/icons.svg#mobile-menu_icon"></use>
             </svg>
         </button>
+        <button class="header_buy-button button">
+            Buy now
+            <svg>
+                <use href="./images/icons.svg#arrow-right_icon"></use>
+            </svg>
+        </button>
         <div class="mobile-menu">
-            <button class="mobile-menu-close-button" type="button">
-                <svg class="mobile-menu-close-icon">
-                    <use href="./images/icons.svg#close_icon"></use>
-                </svg>
-            </button>
+            <div class="mobile-menu__wrap">
+                <a class="header__link-logo" href="./">
+                    <picture class="header__logo-image">
+                        <source srcset="./images/mobile/logo.png 1x, ./images/mobile/logo@2x.png 2x" media="(min-width: 1200px)"
+                            type="image/png">
+                        <source srcset="./images/mobile/logo.png 1x, ./images/mobile/logo@2x.png 2x" media="(min-width: 768px)"
+                            type="image/png">
+                        <source srcset="./images/mobile/logo.png 1x, ./images/mobile/logo@2x.png 2x" media="(min-width: 320px)"
+                            type="image/png">
+                        <img src="./images/mobile/logo.png" alt="Логотип сайту">
+                    </picture>
+                </a>
+                <button class="mobile-menu-close-button" type="button">
+                    <svg class="mobile-menu-close-icon">
+                        <use href="./images/icons.svg#close_icon"></use>
+                    </svg>
+                </button>
+            </div>
             <ul class="mobile-menu__list">
                 <li class="mobile-menu__item">
                     <a class="mobile-menu__link" href="./">
@@ -65,9 +84,9 @@
                     </a>
                 </li>
             </ul>
-            <button class="mobile-menu-button">
+            <button class="mobile-menu__button">
                 Buy now
-                <svg>
+                <svg class="mobile-menu-button-icon">
                     <use href="./images/icons.svg#arrow-right_icon"></use>
                 </svg>
             </button>

@@ -1,0 +1,68 @@
+.hero-section {
+    position: relative;
+    height: 502px;
+    padding-top: 99px;
+    padding-bottom: 9px;
+    background-color: $global-green-color;
+}
+
+.hero-section__container {}
+
+.hero-section__title {
+    margin-bottom: 32px;
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: calc(33 / 26);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $global-white-color;
+}
+
+.hero-section__title--decoration {
+    font-size: 34px;
+    line-height: calc(33 / 34);
+}
+
+.hero-section__wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.hero-section__link-button {
+    // width: 108px;
+    // height: 38px;
+    padding: 11px 26px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    color: $global-black-color;
+    background: none;
+    border: 2px solid $global-yellow-color;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero-section__link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    text-decoration-line: underline;
+    color: $global-yellow-color;
+}
+
+.hero-section_background-image {
+    position: absolute;
+    right: 53%;
+}
+
+.hero-section_background-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    // max-width: 320px;
+    width: 100%;
+}
